@@ -1,0 +1,40 @@
+@media screen{
+  body {
+    font-family: monospace, Arial, sans-serif;
+    font-size: 1em;
+    margin: 0.5%;
+  }
+
+  #header-img { 
+    margin-left: 1.5%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    width: 300px;
+    height: 45px;
+  }
+
+  #nav-bar {
+    position: fixed;
+    text-align: right;
+    margin-top: 0;
+    margin-right: 25%;
+
+  }
+
+  .nav-item {
+    position: fixed;
+    display: flex;
+  place-items: flex-end;
+    position: relative;
+    left: 500%;
+    margin-right: 1%;
+    align-content: flex-end;
+  }
+
+.collapse navbar-collapse {
+  display: flex;
+}
+}
+
+
